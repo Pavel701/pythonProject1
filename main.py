@@ -107,7 +107,7 @@ ball_one = Ball(canvas, 'red', 150, 150, '<KeyPress-Up>', '<KeyPress-Down>', '<K
 # создаём второй шарик — другой объект на основе этого же класса, но с другими параметрами
 ball_two = Ball(canvas, 'green', 100, 100, '<w>', '<s>', '<a>', '<d>')
 # Создаём третий шарик
-ball_third = Ball(canvas, 'green', 80, 50, '<i>', '<m>', '<j>', '<l>')
+ball_third = Ball(canvas, 'yellow', 80, 50, '<i>', '<m>', '<j>', '<l>')
 # запускаем бесконечный цикл
 while not False:
     # рисуем шарик
